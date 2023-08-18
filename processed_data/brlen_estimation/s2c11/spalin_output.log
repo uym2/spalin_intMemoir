@@ -1,0 +1,28 @@
+dataset s2c11
+Optimization without using locations
+Initial point 1. Random seed: 5306
+Solving with ultrametric constraint
+Traceback (most recent call last):
+  File "/Users/uym2/my_gits/spalin_intMemoir/processed_data/brlen_estimation/run_spalin.py", line 42, in <module>
+    mySolver.optimize(initials=20,fixed_nu=1e-8,fixed_phi=1e-8,verbose=False,ultra_constr=True)
+  File "/Users/uym2/my_gits/problin/problin_libs/ML_solver.py", line 264, in optimize
+    nllh,status = self.optimize_one(randseed,fixed_phi=fixed_phi,fixed_nu=fixed_nu,verbose=verbose,ultra_constr=ultra_constr)
+  File "/Users/uym2/my_gits/problin/problin_libs/ML_solver.py", line 328, in optimize_one
+    out = optimize.minimize(nllh, x0, method="SLSQP", options={'disp':disp,'iprint':3,'maxiter':1000}, bounds=bounds,constraints=constraints)
+  File "/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/scipy/optimize/_minimize.py", line 608, in minimize
+    constraints = standardize_constraints(constraints, x0, meth)
+  File "/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/scipy/optimize/_minimize.py", line 839, in standardize_constraints
+    old_constraints = new_constraint_to_old(con, x0)
+  File "/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/scipy/optimize/_constraints.py", line 379, in new_constraint_to_old
+    pcon = PreparedConstraint(con, x0)
+  File "/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/scipy/optimize/_constraints.py", line 239, in __init__
+    fun = LinearVectorFunction(constraint.A, x0, sparse_jacobian)
+  File "/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/scipy/optimize/_differentiable_functions.py", line 555, in __init__
+    self.f = self.J.dot(self.x)
+  File "/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/scipy/sparse/base.py", line 359, in dot
+    return self * other
+  File "/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/cvxpy/interface/scipy_wrapper.py", line 32, in new_method
+    return method(self, other)
+  File "/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/scipy/sparse/base.py", line 498, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch

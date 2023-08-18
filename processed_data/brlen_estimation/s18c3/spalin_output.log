@@ -1,0 +1,14 @@
+dataset s18c3
+Traceback (most recent call last):
+  File "/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/treeswift/Tree.py", line 1445, in read_tree_newick
+    while ts[i] != ':' and ts[i] != ',' and ts[i] != ';' and ts[i] != ')' and ts[i] != '[':
+IndexError: string index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/uym2/my_gits/spalin_intMemoir/processed_data/brlen_estimation/run_spalin.py", line 24, in <module>
+    tree_obj = read_tree_newick(data+"/true_tree.nwk")
+  File "/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/treeswift/Tree.py", line 1450, in read_tree_newick
+    raise RuntimeError("Failed to parse string as Newick: %s"%ts)
+RuntimeError: Failed to parse string as Newick: s18c3/true_tree.nwk

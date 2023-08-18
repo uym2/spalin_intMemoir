@@ -1,0 +1,3 @@
+pos_1,pos_2,progenitor,descendants
+85,188,1,1
+71,162,2,2

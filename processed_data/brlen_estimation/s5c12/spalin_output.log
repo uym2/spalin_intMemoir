@@ -1,0 +1,206 @@
+dataset s5c12
+Optimization without using locations
+Initial point 1. Random seed: 1664
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 114.00172590775917
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 2. Random seed: 3545
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 114.00172578891744
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 3. Random seed: 2278
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 4. Random seed: 7833
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 5. Random seed: 2202
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 6. Random seed: 4291
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 7. Random seed: 9044
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 8. Random seed: 2759
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 9. Random seed: 4305
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 10. Random seed: 9228
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 11. Random seed: 7241
+Solving with ultrametric constraint
+Optimal point found for initial point 11
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 12. Random seed: 1795
+Solving with ultrametric constraint
+Optimal point found for initial point 12
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 13. Random seed: 2863
+Solving with ultrametric constraint
+Optimal point found for initial point 13
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 14. Random seed: 6378
+Solving with ultrametric constraint
+Optimal point found for initial point 14
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 15. Random seed: 9592
+Solving with ultrametric constraint
+Optimal point found for initial point 15
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 16. Random seed: 2021
+Solving with ultrametric constraint
+Optimal point found for initial point 16
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 17. Random seed: 5064
+Solving with ultrametric constraint
+Optimal point found for initial point 17
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 18. Random seed: 5287
+Solving with ultrametric constraint
+Optimal point found for initial point 18
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 19. Random seed: 4626
+Solving with ultrametric constraint
+Optimal point found for initial point 19
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 20. Random seed: 7671
+Solving with ultrametric constraint
+Optimal point found for initial point 20
+Negative llh: 114.00172576277774
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Optimization using locations
+Optimization start with 1 initials
+Initial point 1. Random seed: 7984
+Solving with ultrametric constraint
+  NIT    FC           OBJFUN            GNORM
+    1    60     1.827732E+03     1.107157E+04
+    2   120     2.265304E+03     4.850040E+02
+    3   180     1.920916E+03     4.580269E+02
+    4   240     1.462509E+03     4.254551E+02
+    5   300     1.459642E+03     1.212089E+02
+    6   360     1.376680E+03     9.641400E+01
+    7   420     2.901168E+03     4.926727E+01
+    8   480     1.613756E+03     4.353118E+01
+    9   540     2.221930E+03     3.668897E+01
+   10   600     2.028764E+03     3.644593E+01
+   11   660     2.726036E+03     3.459471E+01
+   12   720     1.580519E+03     3.606296E+01
+   13   780     1.340852E+03     3.726663E+01
+   14   840     1.612252E+03     3.649320E+01
+   15   900     1.950601E+03     3.640082E+01
+   16   960     9.277204E+02     3.796710E+01
+   17  1020     1.108991E+03     3.974658E+01
+   18  1080     9.259707E+02     4.133526E+01
+   19  1140     7.565135E+02     4.226950E+01
+   20  1200     7.746598E+02     4.354774E+01
+   21  1260     6.049366E+02     4.387381E+01
+   22  1320     6.644491E+02     4.780960E+01
+   23  1380     7.760271E+02     5.285690E+01
+   24  1440     7.994259E+02     4.516753E+01
+   25  1500     7.610314E+02     4.380644E+01
+   26  1560     7.331702E+02     4.424418E+01
+   27  1620     7.063444E+02     4.625204E+01
+   28  1680     8.299230E+02     4.836746E+01
+   29  1740     5.817088E+02     4.713959E+01
+   30  1800     6.041873E+02     4.824858E+01
+   31  1860     4.838039E+02     4.939097E+01
+   32  1920     6.780803E+02     5.172384E+01
+   33  1981     6.594532E+02     4.793302E+01
+   34  2041     4.653857E+02     4.814128E+01
+   35  2101     4.640856E+02     4.932657E+01
+   36  2161     4.542121E+02     4.959529E+01
+   37  2221     4.626813E+02     5.032310E+01
+   38  2281     4.541200E+02     5.031469E+01
+   39  2341     4.537747E+02     5.083317E+01
+   40  2400     4.545551E+02     5.096762E+01
+   41  2460     4.536045E+02     5.120407E+01
+   42  2520     4.528346E+02     5.643427E+01
+   43  2579     4.511856E+02     4.954481E+01
+   44  2638     4.500751E+02     4.863051E+01
+   45  2697     4.494171E+02     4.595108E+01
+   46  2756     4.489013E+02     4.782746E+01
+   47  2815     4.490359E+02     4.869608E+01
+   48  2875     4.497402E+02     4.783601E+01
+   49  2935     4.476141E+02     4.901189E+01
+   50  2994     4.472587E+02     5.246863E+01
+   51  3053     4.471024E+02     5.187644E+01
+   52  3112     4.470201E+02     5.036076E+01
+   53  3171     4.469475E+02     4.911916E+01
+   54  3230     4.467498E+02     4.903754E+01
+   55  3289     4.454966E+02     4.864612E+01
+   56  3348     4.468242E+02     4.781693E+01
+   57  3408     4.471911E+02     5.045848E+01
+   58  3468     4.466122E+02     5.787132E+01
+   59  3528     4.527730E+02     6.654130E+01
+   60  3588     4.416513E+02     7.073018E+01
+   61  3647     4.594646E+02     7.043000E+01
+   62  3707     4.549915E+02     1.274376E+02
+   63  3767     4.408869E+02     1.454527E+02
+   64  3826     4.408701E+02     1.997918E+02
+   65  3886     4.407555E+02     2.057186E+02
+   66  3946     4.406264E+02     2.127836E+02
+   67  4005     4.406257E+02     2.147687E+02
+   68  4064     4.406257E+02     2.142905E+02
+   69  4123     4.406257E+02     2.141803E+02
+   70  4181     4.406257E+02     2.141908E+02
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 440.62571094712223
+            Iterations: 70
+            Function evaluations: 4181
+            Gradient evaluations: 70
+Optimal point found for initial point 1
+Negative llh: 440.62571094712223
+Dropout rate: 0
+Silencing rate: 0

@@ -1,0 +1,3 @@
+pos_1,pos_2,progenitor,descendants
+316,380,1,1
+305,346,2,2

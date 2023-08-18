@@ -1,0 +1,164 @@
+dataset s21c3
+Optimization without using locations
+Initial point 1. Random seed: 2173
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 2. Random seed: 4057
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 3. Random seed: 2450
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 4. Random seed: 2202
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 5. Random seed: 2205
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 6. Random seed: 9802
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 7. Random seed: 7510
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 8. Random seed: 5715
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 9. Random seed: 7175
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 10. Random seed: 4983
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 11. Random seed: 4291
+Solving with ultrametric constraint
+Optimal point found for initial point 11
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 12. Random seed: 4774
+Solving with ultrametric constraint
+Optimal point found for initial point 12
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 13. Random seed: 2652
+Solving with ultrametric constraint
+Optimal point found for initial point 13
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 14. Random seed: 5493
+Solving with ultrametric constraint
+Optimal point found for initial point 14
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 15. Random seed: 1894
+Solving with ultrametric constraint
+Optimal point found for initial point 15
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 16. Random seed: 6144
+Solving with ultrametric constraint
+Optimal point found for initial point 16
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 17. Random seed: 2765
+Solving with ultrametric constraint
+Optimal point found for initial point 17
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 18. Random seed: 6638
+Solving with ultrametric constraint
+Optimal point found for initial point 18
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 19. Random seed: 8723
+Solving with ultrametric constraint
+Optimal point found for initial point 19
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 20. Random seed: 3249
+Solving with ultrametric constraint
+Optimal point found for initial point 20
+Negative llh: 109.71166908495707
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Optimization using locations
+Optimization start with 1 initials
+Initial point 1. Random seed: 8780
+Solving with ultrametric constraint
+  NIT    FC           OBJFUN            GNORM
+    1    26     1.040723E+03     4.786273E+02
+    2    52     1.377989E+03     3.208685E+01
+    3    78     9.434245E+02     2.226421E+01
+    4   104     1.090294E+03     2.104011E+01
+    5   130     8.804180E+02     2.095953E+01
+    6   156     5.024071E+02     2.016266E+01
+    7   182     6.596701E+02     1.899358E+01
+    8   208     6.429969E+02     1.843200E+01
+    9   234     4.609091E+02     1.792280E+01
+   10   260     4.028235E+02     1.725751E+01
+   11   286     4.961028E+02     1.704577E+01
+   12   312     3.622486E+02     1.625517E+01
+   13   338     2.999252E+02     1.588393E+01
+   14   364     3.659791E+02     1.553386E+01
+   15   390     3.978395E+02     1.518429E+01
+   16   416     3.002778E+02     1.469059E+01
+   17   442     2.546698E+02     1.431969E+01
+   18   467     2.542930E+02     2.003735E+01
+   19   492     2.542490E+02     1.458517E+01
+   20   517     2.542274E+02     1.401217E+01
+   21   542     2.542190E+02     1.418373E+01
+   22   567     2.541967E+02     1.425755E+01
+   23   592     2.541700E+02     1.429719E+01
+   24   617     2.541616E+02     1.428513E+01
+   25   642     2.541602E+02     1.408365E+01
+   26   667     2.541600E+02     1.403262E+01
+   27   692     2.541600E+02     1.401401E+01
+   28   717     2.541600E+02     1.401036E+01
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 254.1600077724264
+            Iterations: 28
+            Function evaluations: 717
+            Gradient evaluations: 28
+Optimal point found for initial point 1
+Negative llh: 254.1600077724264
+Dropout rate: 0
+Silencing rate: 0

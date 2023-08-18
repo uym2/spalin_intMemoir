@@ -1,0 +1,123 @@
+dataset s8c2
+Optimization using leaf locations
+Initial point 1. Random seed: 4916
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 91.5093783611794
+Dropout rate: 0
+Silencing rate: 0
+Initial point 2. Random seed: 3208
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 91.50938674761275
+Dropout rate: 0
+Silencing rate: 0
+Initial point 3. Random seed: 9328
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 91.50938287163096
+Dropout rate: 0
+Silencing rate: 0
+Initial point 4. Random seed: 4540
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 91.50938432080164
+Dropout rate: 0
+Silencing rate: 0
+Initial point 5. Random seed: 6610
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 91.50938572739689
+Dropout rate: 0
+Silencing rate: 0
+Initial point 6. Random seed: 8483
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 91.50938724110264
+Dropout rate: 0
+Silencing rate: 0
+Initial point 7. Random seed: 6558
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 91.50937692260868
+Dropout rate: 0
+Silencing rate: 0
+Initial point 8. Random seed: 5931
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 91.50937926216776
+Dropout rate: 0
+Silencing rate: 0
+Initial point 9. Random seed: 557
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 91.5093839162852
+Dropout rate: 0
+Silencing rate: 0
+Initial point 10. Random seed: 8842
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 91.50937602925205
+Dropout rate: 0
+Silencing rate: 0
+Initial point 11. Random seed: 3715
+Solving with ultrametric constraint
+Optimal point found for initial point 11
+Negative llh: 90.58677896238632
+Dropout rate: 0
+Silencing rate: 0
+Initial point 12. Random seed: 2103
+Solving with ultrametric constraint
+Optimal point found for initial point 12
+Negative llh: 90.58677285759266
+Dropout rate: 0
+Silencing rate: 0
+Initial point 13. Random seed: 8031
+Solving with ultrametric constraint
+Optimal point found for initial point 13
+Negative llh: 90.78628221998088
+Dropout rate: 0
+Silencing rate: 0
+Initial point 14. Random seed: 6270
+Solving with ultrametric constraint
+Optimal point found for initial point 14
+Negative llh: 90.78628197530126
+Dropout rate: 0
+Silencing rate: 0
+Initial point 15. Random seed: 2642
+Solving with ultrametric constraint
+Optimal point found for initial point 15
+Negative llh: 90.78628188439774
+Dropout rate: 0
+Silencing rate: 0
+Initial point 16. Random seed: 8608
+Solving with ultrametric constraint
+Optimal point found for initial point 16
+Negative llh: 90.78631534303369
+Dropout rate: 0
+Silencing rate: 0
+Initial point 17. Random seed: 807
+Solving with ultrametric constraint
+Optimal point found for initial point 17
+Negative llh: 91.50938399628393
+Dropout rate: 0
+Silencing rate: 0
+Initial point 18. Random seed: 1399
+Solving with ultrametric constraint
+Optimal point found for initial point 18
+Negative llh: 91.50939152291895
+Dropout rate: 0
+Silencing rate: 0
+Initial point 19. Random seed: 2462
+Solving with ultrametric constraint
+Optimal point found for initial point 19
+Negative llh: 91.50937784002383
+Dropout rate: 0
+Silencing rate: 0
+Initial point 20. Random seed: 1730
+Solving with ultrametric constraint
+Optimal point found for initial point 20
+Negative llh: 91.50938572798486
+Dropout rate: 0
+Silencing rate: 0
+Optimal nllh: 90.58677285759266

@@ -1,0 +1,3 @@
+pos_1,pos_2,progenitor,descendants_1,descendants_2
+442,214,1,1,2
+400,168,2,3,4

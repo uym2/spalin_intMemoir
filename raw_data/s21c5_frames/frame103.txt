@@ -1,0 +1,5 @@
+pos_1,pos_2,progenitor,descendants_1,descendants_2
+265,159,1,1,
+278,149,2,2,
+244,163,3,3,4
+245,145,4,5,

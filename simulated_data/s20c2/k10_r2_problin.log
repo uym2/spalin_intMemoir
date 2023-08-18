@@ -1,0 +1,85 @@
+Launching Problin version 0.5b
+Problin was called as follow: /Users/uym2/my_gits/problin/run_problin.py -c s20c2/k10_r2_character_matrix.csv -t s20c2/true_tree.nwk --delimiter comma -p s20c2/k10_priors.csv -o s20c2/k10_r2_problin.txt --nInitials 10
+Optimization by EM algorithm
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 8146
+Solving ML without ultrametric constraint
+Initial phi: 0.7228215965374426. Initial nu: 0.6991426771928761. Initial nllh: 17797.781545805967
+EM finished after 12 iterations.
+Optimal point found for initial point 1
+Negative llh: 102.6684013513335
+Dropout rate: 0
+Silencing rate: 9.691613113388004e-07
+Initial point 2. Random seed: 1027
+Solving ML without ultrametric constraint
+Initial phi: 0.8426987077466483. Initial nu: 0.5157158399524041. Initial nllh: 493.5681495525781
+EM finished after 11 iterations.
+Optimal point found for initial point 2
+Negative llh: 102.66840117173379
+Dropout rate: 0
+Silencing rate: 9.69843673974968e-07
+Initial point 3. Random seed: 6972
+Solving ML without ultrametric constraint
+Initial phi: 0.6074563803493467. Initial nu: 0.46238017502864986. Initial nllh: 315.7331760207238
+EM finished after 10 iterations.
+Optimal point found for initial point 3
+Negative llh: 102.66840136889633
+Dropout rate: 0
+Silencing rate: 9.701941951533897e-07
+Initial point 4. Random seed: 492
+Solving ML without ultrametric constraint
+Initial phi: 0.08674993302528794. Initial nu: 0.9614445993003775. Initial nllh: 193.50701201959157
+EM finished after 11 iterations.
+Optimal point found for initial point 4
+Negative llh: 102.66840126617356
+Dropout rate: 0
+Silencing rate: 9.687903333691909e-07
+Initial point 5. Random seed: 7665
+Solving ML without ultrametric constraint
+Initial phi: 0.21999192410227858. Initial nu: 0.7593440618788292. Initial nllh: 208.00049763200272
+EM finished after 11 iterations.
+Optimal point found for initial point 5
+Negative llh: 102.66840132115054
+Dropout rate: 0
+Silencing rate: 9.701890106970444e-07
+Initial point 6. Random seed: 6445
+Solving ML without ultrametric constraint
+Initial phi: 0.90867500564177. Initial nu: 0.5328055412699599. Initial nllh: 598.1865905083121
+EM finished after 15 iterations.
+Optimal point found for initial point 6
+Negative llh: 102.66839633706417
+Dropout rate: 0
+Silencing rate: 9.081893716637944e-07
+Initial point 7. Random seed: 8983
+Solving ML without ultrametric constraint
+Initial phi: 0.18995829418984284. Initial nu: 0.14344241244420164. Initial nllh: 153.6757717410869
+EM finished after 9 iterations.
+Optimal point found for initial point 7
+Negative llh: 102.66840113680945
+Dropout rate: 0
+Silencing rate: 9.703445338286866e-07
+Initial point 8. Random seed: 5181
+Solving ML without ultrametric constraint
+Initial phi: 0.4942931417559689. Initial nu: 0.7764065093329138. Initial nllh: 291.6424407654658
+EM finished after 12 iterations.
+Optimal point found for initial point 8
+Negative llh: 102.668401167256
+Dropout rate: 0
+Silencing rate: 9.702525084775194e-07
+Initial point 9. Random seed: 8313
+Solving ML without ultrametric constraint
+Initial phi: 0.7934908470461922. Initial nu: 0.03321620634844637. Initial nllh: 404.91897159210157
+EM finished after 6 iterations.
+Optimal point found for initial point 9
+Negative llh: 102.66840130406771
+Dropout rate: 0
+Silencing rate: 9.700363401858243e-07
+Initial point 10. Random seed: 8392
+Solving ML without ultrametric constraint
+Initial phi: 0.5357968241311457. Initial nu: 0.10757790408373259. Initial nllh: 256.71537397148273
+EM finished after 6 iterations.
+Optimal point found for initial point 10
+Negative llh: 102.66840139196343
+Dropout rate: 0
+Silencing rate: 9.699262994717093e-07
+Runtime (s): 4.9639599169999995

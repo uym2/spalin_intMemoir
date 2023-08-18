@@ -1,0 +1,214 @@
+dataset s8c5
+Optimization without using locations
+Initial point 1. Random seed: 5010
+Solving with ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 2. Random seed: 8047
+Solving with ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 3. Random seed: 9682
+Solving with ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 4. Random seed: 5922
+Solving with ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 5. Random seed: 4841
+Solving with ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 6. Random seed: 1899
+Solving with ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 7. Random seed: 1069
+Solving with ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 8. Random seed: 3126
+Solving with ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 9. Random seed: 1517
+Solving with ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 10. Random seed: 2040
+Solving with ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 11. Random seed: 9109
+Solving with ultrametric constraint
+Optimal point found for initial point 11
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 12. Random seed: 779
+Solving with ultrametric constraint
+Optimal point found for initial point 12
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 13. Random seed: 9817
+Solving with ultrametric constraint
+Optimal point found for initial point 13
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 14. Random seed: 1338
+Solving with ultrametric constraint
+Optimal point found for initial point 14
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 15. Random seed: 3094
+Solving with ultrametric constraint
+Optimal point found for initial point 15
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 16. Random seed: 1391
+Solving with ultrametric constraint
+Optimal point found for initial point 16
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 17. Random seed: 6870
+Solving with ultrametric constraint
+Optimal point found for initial point 17
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 18. Random seed: 154
+Solving with ultrametric constraint
+Optimal point found for initial point 18
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 19. Random seed: 613
+Solving with ultrametric constraint
+Optimal point found for initial point 19
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Initial point 20. Random seed: 3129
+Solving with ultrametric constraint
+Optimal point found for initial point 20
+Negative llh: 119.04897832022618
+Dropout rate: 1e-08
+Silencing rate: 1e-08
+Optimization using locations
+Optimization start with 1 initials
+Initial point 1. Random seed: 3115
+Solving with ultrametric constraint
+  NIT    FC           OBJFUN            GNORM
+    1    52     2.459901E+03     7.335602E+02
+    2   104     2.693046E+03     2.993173E+02
+    3   156     2.732230E+03     1.219099E+02
+    4   208     2.092820E+03     9.314881E+01
+    5   260     2.545282E+03     8.625850E+01
+    6   312     2.680016E+03     8.118190E+01
+    7   364     1.337976E+03     7.649021E+01
+    8   416     1.305888E+03     7.249064E+01
+    9   468     1.435702E+03     6.939354E+01
+   10   520     8.892514E+02     6.670645E+01
+   11   572     1.051435E+03     6.371524E+01
+   12   624     9.887501E+02     6.148724E+01
+   13   676     1.056596E+03     5.945731E+01
+   14   728     1.038285E+03     5.744141E+01
+   15   780     1.087934E+03     5.631636E+01
+   16   832     1.010105E+03     5.546304E+01
+   17   884     1.054957E+03     5.562839E+01
+   18   936     1.027063E+03     5.613238E+01
+   19   988     1.371582E+03     5.776091E+01
+   20  1040     1.109189E+03     5.494596E+01
+   21  1092     1.010554E+03     4.535650E+01
+   22  1144     1.520482E+03     2.409030E+01
+   23  1196     9.464875E+02     2.512149E+01
+   24  1248     1.221714E+03     2.662897E+01
+   25  1300     1.097684E+03     2.621020E+01
+   26  1352     7.016496E+02     2.512070E+01
+   27  1404     5.604522E+02     2.719150E+01
+   28  1456     9.867315E+02     2.822439E+01
+   29  1508     5.988093E+02     2.645814E+01
+   30  1560     8.604321E+02     2.893877E+01
+   31  1612     4.960411E+02     2.713719E+01
+   32  1664     6.549233E+02     3.020705E+01
+   33  1716     4.855437E+02     3.420870E+01
+   34  1768     5.153849E+02     3.745674E+01
+   35  1820     4.834394E+02     4.191684E+01
+   36  1872     5.219930E+02     3.750228E+01
+   37  1924     7.270732E+02     4.114080E+01
+   38  1976     6.676157E+02     4.359251E+01
+   39  2028     4.823281E+02     5.133161E+01
+   40  2080     5.608956E+02     4.998992E+01
+   41  2132     9.244129E+02     5.139843E+01
+   42  2184     6.806416E+02     5.265204E+01
+   43  2236     6.280221E+02     4.944719E+01
+   44  2288     5.616182E+02     4.821357E+01
+   45  2340     5.386498E+02     4.726869E+01
+   46  2392     5.296404E+02     4.603068E+01
+   47  2444     5.183657E+02     4.498436E+01
+   48  2496     5.187663E+02     4.404959E+01
+   49  2548     5.138212E+02     4.338799E+01
+   50  2600     5.172945E+02     4.239328E+01
+   51  2652     4.685612E+02     4.207948E+01
+   52  2704     4.662022E+02     4.105627E+01
+   53  2756     4.137765E+02     4.084684E+01
+   54  2808     4.633623E+02     3.706350E+01
+   55  2860     4.126053E+02     3.701207E+01
+   56  2911     4.125198E+02     3.672040E+01
+   57  2962     4.124494E+02     3.803593E+01
+   58  3013     4.123375E+02     3.720093E+01
+   59  3064     4.120259E+02     3.793465E+01
+   60  3115     4.119329E+02     4.021946E+01
+   61  3166     4.118924E+02     4.080596E+01
+   62  3217     4.118704E+02     3.985840E+01
+   63  3268     4.118596E+02     3.924902E+01
+   64  3319     4.118423E+02     3.883167E+01
+   65  3370     4.118144E+02     3.832527E+01
+   66  3421     4.117182E+02     3.819093E+01
+   67  3472     4.119300E+02     3.791673E+01
+   68  3524     4.101545E+02     3.787986E+01
+   69  3575     4.856822E+02     4.919861E+01
+   70  3627     4.098583E+02     1.981279E+02
+   71  3679     4.098132E+02     1.634249E+02
+   72  3731     4.092792E+02     1.692510E+02
+   73  3782     4.088746E+02     1.724095E+02
+   74  3833     4.088548E+02     2.012639E+02
+   75  3884     4.088533E+02     2.014724E+02
+   76  3935     4.088532E+02     2.013056E+02
+   77  3986     4.088532E+02     2.013578E+02
+   79  4037     4.088621E+02     2.013771E+02
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: 408.8531847122716
+            Iterations: 79
+            Function evaluations: 4040
+            Gradient evaluations: 78
+Optimal point found for initial point 1
+Negative llh: 408.8531847122716
+Dropout rate: 0
+Silencing rate: 0

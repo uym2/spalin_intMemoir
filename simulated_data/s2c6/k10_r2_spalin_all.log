@@ -1,0 +1,66 @@
+Launching Problin version 0.5b
+Problin was called as follow: /Users/uym2/my_gits/problin/run_problin.py -c s2c6/k10_r2_character_matrix.csv -t s2c6/true_tree.nwk -S s2c6/true_locations.txt --delimiter comma -p s2c6/k10_priors.csv -o s2c6/k10_r2_spalin_all.txt --nInitials 10
+Optimization by Spalin: Scipy-SLSQP using spatial information
+Optimizing branch lengths, phi, and nu without topology search
+Initial point 1. Random seed: 9984
+Solving ML without ultrametric constraint
+Optimal point found for initial point 1
+Negative llh: 413.87344198069115
+Dropout rate: 1.0000000000000007e-10
+Silencing rate: 1.0000000000000007e-10
+Initial point 2. Random seed: 1991
+Solving ML without ultrametric constraint
+Optimal point found for initial point 2
+Negative llh: 413.87344463922085
+Dropout rate: 1.5328324010562695e-10
+Silencing rate: 1.395513250650468e-10
+Initial point 3. Random seed: 494
+Solving ML without ultrametric constraint
+Optimal point found for initial point 3
+Negative llh: 413.873441680228
+Dropout rate: 1.3312587180417934e-10
+Silencing rate: 2.691625248051687e-10
+Initial point 4. Random seed: 5233
+Solving ML without ultrametric constraint
+Optimal point found for initial point 4
+Negative llh: 413.8734446911817
+Dropout rate: 2.240753579293942e-10
+Silencing rate: 1.9211532207191922e-10
+Initial point 5. Random seed: 5192
+Solving ML without ultrametric constraint
+Optimal point found for initial point 5
+Negative llh: 413.87344421951246
+Dropout rate: 1.3224168680735692e-10
+Silencing rate: 1.2393709267025002e-10
+Initial point 6. Random seed: 1578
+Solving ML without ultrametric constraint
+Optimal point found for initial point 6
+Negative llh: 413.8734416361716
+Dropout rate: 9.999999999999996e-11
+Silencing rate: 9.999999999999996e-11
+Initial point 7. Random seed: 7491
+Solving ML without ultrametric constraint
+Optimal point found for initial point 7
+Negative llh: 413.8734416460188
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Initial point 8. Random seed: 964
+Solving ML without ultrametric constraint
+Optimal point found for initial point 8
+Negative llh: 413.8734416836388
+Dropout rate: 1.1523499588722265e-10
+Silencing rate: 1.1130963956154132e-10
+Initial point 9. Random seed: 5862
+Solving ML without ultrametric constraint
+Optimal point found for initial point 9
+Negative llh: 413.8734418559468
+Dropout rate: 1e-10
+Silencing rate: 1e-10
+Initial point 10. Random seed: 2592
+Solving ML without ultrametric constraint
+Optimal point found for initial point 10
+Negative llh: 413.87344879507566
+Dropout rate: 2.0731702883129204e-08
+Silencing rate: 6.071273730890503e-10
+{'phi': 9.999999999999996e-11, 'nu': 9.999999999999996e-11, 'sigma': 22, 'locations': {'25_3': (217.0, 115.0), '68_6': (230.0, 106.0), '188_25': (229.0, 115.0), '216_29': (226.0, 106.0), '216_28': (222.0, 127.0), '115_10': (212.0, 95.0), '170_21': (227.0, 84.0), '216_31': (250.0, 69.0), '216_30': (208.0, 80.0), '167_22': (221.0, 72.0), '209_34': (195.0, 65.0), '216_33': (211.0, 60.0), '216_32': (182.0, 60.0), '208_35': (245.0, 56.0), '216_35': (253.0, 46.0), '216_34': (235.0, 56.0), '64_4': (215.0, 120.0), '160_15': (224.0, 113.0), '202_26': (207.0, 115.0), '216_25': (215.0, 96.0), '216_24': (200.0, 115.0), '198_26': (209.0, 98.0), '216_27': (228.0, 90.0), '216_26': (201.0, 104.0), '103_5': (228.0, 129.0), '152_11': (222.0, 136.0), '201_23': (247.0, 134.0), '216_23': (238.0, 141.0), '216_22': (252.0, 143.0), '216_21': (264.0, 161.0), '139_9': (228.0, 141.0), '184_17': (251.0, 118.0), '216_20': (239.0, 115.0), '216_19': (263.0, 132.0), '184_16': (228.0, 170.0), '216_18': (235.0, 186.0), '216_17': (219.0, 184.0), '14_1': (173.0, 134.0), '216_4': (211.0, 141.0), '118_3': (175.0, 123.0), '170_7': (188.0, 132.0), '216_11': (203.0, 131.0), '216_10': (183.0, 136.0), '166_5': (159.0, 123.0), '210_8': (147.0, 140.0), '216_7': (155.0, 147.0), '216_6': (135.0, 132.0), '209_9': (159.0, 109.0), '216_9': (148.0, 106.0), '216_8': (168.0, 110.0), 'virtual': (216.67432864975757, 115.1400413419171)}}
+Runtime (s): 74.68517629099999

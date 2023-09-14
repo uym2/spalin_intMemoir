@@ -1,0 +1,9 @@
+For every node possible, calculate:
+
+node.x_location - node.parent.x_location
+
+and
+
+node.y_location - node.parent.y_location
+
+and divide by the edge length of the node.

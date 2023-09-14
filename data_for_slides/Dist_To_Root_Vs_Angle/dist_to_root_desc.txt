@@ -1,0 +1,5 @@
+combined angles of the ground truth data
+
+angles are defined as the angle ABC, where A,C = child nodes, B = parent node, for every parent node with two children nodes.
+
+for each angle ABC, annotate with the "distance to root" which is defined as the sum of all edges when traversing from parent node B to the root.

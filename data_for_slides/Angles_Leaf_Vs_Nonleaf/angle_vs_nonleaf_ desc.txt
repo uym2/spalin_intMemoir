@@ -1,0 +1,5 @@
+combined angles of the ground truth data
+
+angles are defined as the angle ABC, where A,C = child nodes, B = parent node, for every parent node with two children nodes.
+
+if A and C are both leaves of the tree, call this angle a "leaf" angle, otherwise it is not a leaf angle.

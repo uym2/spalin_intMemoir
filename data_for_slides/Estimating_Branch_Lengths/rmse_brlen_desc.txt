@@ -1,0 +1,4 @@
+compiled errors (RMSE) of all branch lengths against the truth branch lengths
+
+normalized by the scale of the true branch lengths (max branch length - min branch length) for each tree in order to give scale
+

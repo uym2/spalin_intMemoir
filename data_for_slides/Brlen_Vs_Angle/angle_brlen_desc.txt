@@ -1,0 +1,7 @@
+combined angles of the ground truth data
+
+angles are defined as the angle ABC, where A,C = child nodes, B = parent node, for every parent node with two children nodes.
+
+for each angle ABC, annotate with the "branch length" defined as (A.edge_length + C.edge_length) / 2
+
+i.e the average of the branch lengths between the child nodes and the parent node.

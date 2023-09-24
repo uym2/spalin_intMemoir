@@ -1,0 +1,5 @@
+All the angles are one column
+
+'Source' indicates either that the data is simulated from a gaussian (assume that we have a point at the origin - draw two random points from Normal(mean, var), where mean and variance come from the ground truth data. (the shape of the density plot of these angles is the same regardless of the frame differences)
+
+Otherwise, frame diff = n means that if the parent is at frame k, the children locations used to compute the angle between child_1 -> parent -> child_2 is frame k+n

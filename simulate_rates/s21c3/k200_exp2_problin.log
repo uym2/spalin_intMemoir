@@ -1,0 +1,68 @@
+/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/cvxpy/atoms/elementwise/log.py:35: RuntimeWarning: divide by zero encountered in log
+  return np.log(values[0])
+Launching Problin version 0.5b
+Problin was called as follow: /Users/uym2/my_gits/problin/run_problin.py -c s21c3/k200_exp2_character_matrix.csv -t s21c3/true_tree.nwk --delimiter comma -p s21c3/k200_exp2_priors.csv -o s21c3/k200_exp2_problin --nInitials 10 --ultrametric
+Optimizing branch lengths, phi, and nu without topology search
+Optimization by EM algorithm
+Initial point 1. Random seed: 6145
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.5870084446881747. Initial nu: 0.8625580222094992. Initial nllh: 286473.0010236157
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 4.831633021527264e-08. Optimal nllh: 1239.3019715492978
+Optimal point found for initial point 1
+Initial point 2. Random seed: 9759
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.07660959706159329. Initial nu: 0.31603585464627343. Initial nllh: 1667.147168372919
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 4.653768121150206e-08. Optimal nllh: 1239.3019698010642
+Optimal point found for initial point 2
+Initial point 3. Random seed: 4552
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.04249136807389307. Initial nu: 0.9476729425582888. Initial nllh: 2091.975276012844
+EM finished after 7 iterations.
+Optimal phi: 0. Optimal nu: 5.215310253230542e-08. Optimal nllh: 1239.3019836618068
+Optimal point found for initial point 3
+Initial point 4. Random seed: 2630
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.05372932864617627. Initial nu: 0.8939482239010448. Initial nllh: 2075.0181712008066
+EM finished after 9 iterations.
+Optimal phi: 0. Optimal nu: 4.660640562711285e-08. Optimal nllh: 1239.30197044867
+Optimal point found for initial point 4
+Initial point 5. Random seed: 5676
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.743969232795783. Initial nu: 0.6141184836012907. Initial nllh: 4727.361287506302
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 4.6081772847402434e-08. Optimal nllh: 1239.3019695208477
+Optimal point found for initial point 5
+Initial point 6. Random seed: 606
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.6061329780051982. Initial nu: 0.42538421095805806. Initial nllh: 3628.9969878253073
+EM finished after 8 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1239.30193356897
+Optimal point found for initial point 6
+Initial point 7. Random seed: 3711
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.7714653141180602. Initial nu: 0.07608078379638694. Initial nllh: 4547.434971411623
+EM finished after 6 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1239.3019338082133
+Optimal point found for initial point 7
+Initial point 8. Random seed: 6462
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.2510436106952074. Initial nu: 0.41866479110352395. Initial nllh: 2209.7585686442826
+EM finished after 7 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1239.301936169086
+Optimal point found for initial point 8
+Initial point 9. Random seed: 2239
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.7453978936018241. Initial nu: 0.09713854018821277. Initial nllh: 4326.628123859257
+EM finished after 6 iterations.
+Optimal phi: 0. Optimal nu: 4.475240008316494e-08. Optimal nllh: 1239.301970103981
+Optimal point found for initial point 9
+Initial point 10. Random seed: 4521
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.9441779639982414. Initial nu: 0.2213184387333972. Initial nllh: 7764.414762317914
+EM finished after 7 iterations.
+Optimal phi: 0. Optimal nu: 4.7338456177040014e-08. Optimal nllh: 1239.3019719241554
+Optimal point found for initial point 10
+Numerical optimization finished successfully
+Runtime (s): 8.800882542

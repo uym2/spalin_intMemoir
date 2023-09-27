@@ -1,0 +1,68 @@
+/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/cvxpy/atoms/elementwise/log.py:35: RuntimeWarning: divide by zero encountered in log
+  return np.log(values[0])
+Launching Problin version 0.5b
+Problin was called as follow: /Users/uym2/my_gits/problin/run_problin.py -c s4c3/k200_const_character_matrix.csv -t s4c3/true_tree.nwk --delimiter comma -p s4c3/k200_const_priors.csv -o s4c3/k200_const_problin --nInitials 10 --ultrametric
+Optimizing branch lengths, phi, and nu without topology search
+Optimization by EM algorithm
+Initial point 1. Random seed: 3189
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.3787421154061986. Initial nu: 0.5249148110884723. Initial nllh: 169383.6652200076
+EM finished after 27 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1304.6742443263106
+Optimal point found for initial point 1
+Initial point 2. Random seed: 4404
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.5514619640684165. Initial nu: 0.0055828568508331945. Initial nllh: 3556.570191769382
+EM finished after 6 iterations.
+Optimal phi: 0. Optimal nu: 4.0731341759139987e-08. Optimal nllh: 1304.6742576176994
+Optimal point found for initial point 2
+Initial point 3. Random seed: 9183
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.8911984420665686. Initial nu: 0.5859890993978194. Initial nllh: 8197.14993263296
+EM finished after 25 iterations.
+Optimal phi: 0. Optimal nu: 3.6560242412752004e-08. Optimal nllh: 1304.674309928862
+Optimal point found for initial point 3
+Initial point 4. Random seed: 5275
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.7565554321007052. Initial nu: 0.7200202651547297. Initial nllh: 6097.842122465579
+EM finished after 28 iterations.
+Optimal phi: 0. Optimal nu: 3.746759467235348e-08. Optimal nllh: 1304.6742856624774
+Optimal point found for initial point 4
+Initial point 5. Random seed: 8513
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.15124489553528753. Initial nu: 0.03740579228668669. Initial nllh: 1807.7723176749007
+EM finished after 13 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1304.6742387432669
+Optimal point found for initial point 5
+Initial point 6. Random seed: 5596
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.8361405268718414. Initial nu: 0.9432741825159344. Initial nllh: 7465.742365677515
+EM finished after 23 iterations.
+Optimal phi: 0. Optimal nu: 3.8283960363964526e-08. Optimal nllh: 1304.6743949563004
+Optimal point found for initial point 6
+Initial point 7. Random seed: 5387
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.8712564172337378. Initial nu: 0.8965856652461194. Initial nllh: 8086.763500557743
+EM finished after 23 iterations.
+Optimal phi: 0. Optimal nu: 3.991635584767414e-08. Optimal nllh: 1304.6743979958167
+Optimal point found for initial point 7
+Initial point 8. Random seed: 7658
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.7427686552571585. Initial nu: 0.6091169125027762. Initial nllh: 5814.705141964765
+EM finished after 32 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1304.6742198514562
+Optimal point found for initial point 8
+Initial point 9. Random seed: 111
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.45544084878997654. Initial nu: 0.09830474991680926. Initial nllh: 3121.1635452711466
+EM finished after 14 iterations.
+Optimal phi: 0. Optimal nu: 4.007447789606576e-08. Optimal nllh: 1304.674333035323
+Optimal point found for initial point 9
+Initial point 10. Random seed: 8769
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.6966584181414567. Initial nu: 0.7353304086000557. Initial nllh: 5499.708088136391
+EM finished after 27 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1304.6742516275017
+Optimal point found for initial point 10
+Numerical optimization finished successfully
+Runtime (s): 29.764277667

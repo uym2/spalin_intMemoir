@@ -1,0 +1,3 @@
+Dropout rate: 0
+Silencing rate: 8.608908694269213e-07
+Negative-llh: (69.92446159498219, 'optimal')

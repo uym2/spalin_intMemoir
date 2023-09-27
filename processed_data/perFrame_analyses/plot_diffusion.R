@@ -1,4 +1,4 @@
-setwd("/Users/uym2/my_gits/spalin/processed_data/perFrame_analyses/")
+setwd("/Users/uym2/my_gits/spalin_intMemoir/processed_data/perFrame_analyses")
 require(ggplot2)
 
 d = read.table("all_diffussion.txt",header=T)
@@ -23,6 +23,7 @@ ggplot(d[(d$par_x-d$x) != 0,],aes(sample=par_x-x)) +
   geom_qq(size=0.1) + geom_qq_line() + 
   theme_classic() + facet_wrap(~ID,scale="free")
 ggsave("qqplot_x_all.pdf",width=15,height=15)
+
 # exclude "division frames"
 ggplot(d[d$div_frame == "False" & (d$par_x-d$x) != 0,],aes(sample=par_x-x)) + 
   geom_qq(size=0.1) + geom_qq_line() + 
@@ -35,6 +36,7 @@ ggplot(d[(d$par_y-d$y) != 0,],aes(sample=par_y-y)) +
   geom_qq(size=0.1) + geom_qq_line() + 
   theme_classic() + facet_wrap(~ID,scale="free")
 ggsave("qqplot_y_all.pdf",width=15,height=15)
+
 # exclude "division frames"
 ggplot(d[d$div_frame == "False" & (d$par_y-d$y) != 0,],aes(sample=par_y-y)) + 
   geom_qq(size=0.1) + geom_qq_line() + 

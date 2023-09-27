@@ -1,0 +1,68 @@
+/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/cvxpy/atoms/elementwise/log.py:35: RuntimeWarning: divide by zero encountered in log
+  return np.log(values[0])
+Launching Problin version 0.5b
+Problin was called as follow: /Users/uym2/my_gits/problin/run_problin.py -c s2c10/k200_const_character_matrix.csv -t s2c10/true_tree.nwk --delimiter comma -p s2c10/k200_const_priors.csv -o s2c10/k200_const_problin --nInitials 10 --ultrametric
+Optimizing branch lengths, phi, and nu without topology search
+Optimization by EM algorithm
+Initial point 1. Random seed: 926
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.7977343718914729. Initial nu: 0.8116093660109033. Initial nllh: 230299.7728945094
+EM finished after 12 iterations.
+Optimal phi: 0. Optimal nu: 1.6559975064912032e-08. Optimal nllh: 1336.4426851567632
+Optimal point found for initial point 1
+Initial point 2. Random seed: 7335
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.8508937688856251. Initial nu: 0.16088017971962276. Initial nllh: 6103.853137686814
+EM finished after 9 iterations.
+Optimal phi: 0. Optimal nu: 1.3937018232318941e-08. Optimal nllh: 1336.442678751636
+Optimal point found for initial point 2
+Initial point 3. Random seed: 8629
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.4851560267705983. Initial nu: 0.7007989256419893. Initial nllh: 3800.899029360342
+EM finished after 11 iterations.
+Optimal phi: 0. Optimal nu: 2.5905621496803632e-08. Optimal nllh: 1336.4426942071393
+Optimal point found for initial point 3
+Initial point 4. Random seed: 6055
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.7393838213157542. Initial nu: 0.6324418995431005. Initial nllh: 5349.885985469687
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 3.331745602336988e-08. Optimal nllh: 1336.4427205160302
+Optimal point found for initial point 4
+Initial point 5. Random seed: 4416
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.43974870441119956. Initial nu: 0.6062196689867728. Initial nllh: 3480.472907372843
+EM finished after 11 iterations.
+Optimal phi: 0. Optimal nu: 1.4336469060455993e-08. Optimal nllh: 1336.4426780775823
+Optimal point found for initial point 5
+Initial point 6. Random seed: 5034
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.04068517310566711. Initial nu: 0.7079624944807573. Initial nllh: 2316.152929442953
+EM finished after 11 iterations.
+Optimal phi: 0. Optimal nu: 2.576821568125204e-08. Optimal nllh: 1336.4426941891472
+Optimal point found for initial point 6
+Initial point 7. Random seed: 3488
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.07748651238742492. Initial nu: 0.0505248454511596. Initial nllh: 1592.8147028917865
+EM finished after 7 iterations.
+Optimal phi: 0. Optimal nu: 2.1695453782852982e-08. Optimal nllh: 1336.4426889412496
+Optimal point found for initial point 7
+Initial point 8. Random seed: 7722
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.6553602906588886. Initial nu: 0.4207298300544382. Initial nllh: 4416.036223865398
+EM finished after 12 iterations.
+Optimal phi: 0. Optimal nu: 2.2184254814218987e-08. Optimal nllh: 1336.4426805055634
+Optimal point found for initial point 8
+Initial point 9. Random seed: 620
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.07188817263492979. Initial nu: 0.7075989032033883. Initial nllh: 2395.0711795074276
+EM finished after 11 iterations.
+Optimal phi: 0. Optimal nu: 1.728081354443724e-08. Optimal nllh: 1336.4426836096827
+Optimal point found for initial point 9
+Initial point 10. Random seed: 1977
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.8077934748044094. Initial nu: 0.9876129731470531. Initial nllh: 6522.124014540738
+EM finished after 12 iterations.
+Optimal phi: 0. Optimal nu: 1.4418427793770598e-08. Optimal nllh: 1336.4426744630357
+Optimal point found for initial point 10
+Numerical optimization finished successfully
+Runtime (s): 12.97408075

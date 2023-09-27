@@ -1,0 +1,68 @@
+/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/cvxpy/atoms/elementwise/log.py:35: RuntimeWarning: divide by zero encountered in log
+  return np.log(values[0])
+Launching Problin version 0.5b
+Problin was called as follow: /Users/uym2/my_gits/problin/run_problin.py -c s16c8/k200_const_character_matrix.csv -t s16c8/true_tree.nwk --delimiter comma -p s16c8/k200_const_priors.csv -o s16c8/k200_const_problin --nInitials 10 --ultrametric
+Optimizing branch lengths, phi, and nu without topology search
+Optimization by EM algorithm
+Initial point 1. Random seed: 7835
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.6824172930121009. Initial nu: 0.5028392586400406. Initial nllh: 133390.08110351965
+EM finished after 11 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1054.7907159833876
+Optimal point found for initial point 1
+Initial point 2. Random seed: 4939
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.31368907518130607. Initial nu: 0.3282093349317227. Initial nllh: 2189.994997163086
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1054.7907153474446
+Optimal point found for initial point 2
+Initial point 3. Random seed: 2734
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.6199593695452708. Initial nu: 0.4533063676614489. Initial nllh: 3607.151091357721
+EM finished after 8 iterations.
+Optimal phi: 0. Optimal nu: 3.9528219944472403e-08. Optimal nllh: 1054.79076475292
+Optimal point found for initial point 3
+Initial point 4. Random seed: 9333
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.47712925357705044. Initial nu: 0.8502166928221458. Initial nllh: 3275.922666284557
+EM finished after 9 iterations.
+Optimal phi: 0. Optimal nu: 2.20771096204294e-08. Optimal nllh: 1054.7907431827296
+Optimal point found for initial point 4
+Initial point 5. Random seed: 5755
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.41427333391500837. Initial nu: 0.2124972420005252. Initial nllh: 2430.570188950516
+EM finished after 11 iterations.
+Optimal phi: 0. Optimal nu: 3.932999926865229e-09. Optimal nllh: 1054.7907184786454
+Optimal point found for initial point 5
+Initial point 6. Random seed: 6663
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.7072908461761516. Initial nu: 0.2152366250458447. Initial nllh: 3959.2141720748273
+EM finished after 9 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1054.790715935094
+Optimal point found for initial point 6
+Initial point 7. Random seed: 6551
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.21735970863448315. Initial nu: 0.9634468091127654. Initial nllh: 2494.344441147247
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 1054.7907171657043
+Optimal point found for initial point 7
+Initial point 8. Random seed: 8265
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.6831832659787861. Initial nu: 0.3756646555288833. Initial nllh: 3934.9303768498144
+EM finished after 11 iterations.
+Optimal phi: 0. Optimal nu: 5.438219670369676e-09. Optimal nllh: 1054.790720016626
+Optimal point found for initial point 8
+Initial point 9. Random seed: 120
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.8698888847066691. Initial nu: 0.20669328211761404. Initial nllh: 5734.973593235302
+EM finished after 11 iterations.
+Optimal phi: 0. Optimal nu: 4.326725053708693e-09. Optimal nllh: 1054.7907188283318
+Optimal point found for initial point 9
+Initial point 10. Random seed: 3534
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.32162518696444065. Initial nu: 0.8243269299376359. Initial nllh: 2678.952637252026
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 5.668382952864194e-09. Optimal nllh: 1054.7907221159355
+Optimal point found for initial point 10
+Numerical optimization finished successfully
+Runtime (s): 11.579593542

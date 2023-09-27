@@ -1,0 +1,68 @@
+/Users/uym2/opt/anaconda3/lib/python3.9/site-packages/cvxpy/atoms/elementwise/log.py:35: RuntimeWarning: divide by zero encountered in log
+  return np.log(values[0])
+Launching Problin version 0.5b
+Problin was called as follow: /Users/uym2/my_gits/problin/run_problin.py -c s2c8/k200_exp_character_matrix.csv -t s2c8/true_tree.nwk --delimiter comma -p s2c8/k200_exp_priors.csv -o s2c8/k200_exp_problin --nInitials 10 --ultrametric
+Optimizing branch lengths, phi, and nu without topology search
+Optimization by EM algorithm
+Initial point 1. Random seed: 5044
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.8672196892472923. Initial nu: 0.8946063213373636. Initial nllh: 175268.38501560295
+EM finished after 12 iterations.
+Optimal phi: 0. Optimal nu: 4.950124555202143e-08. Optimal nllh: 843.2976058112645
+Optimal point found for initial point 1
+Initial point 2. Random seed: 7175
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.532015299799606. Initial nu: 0.6285922872321084. Initial nllh: 2959.08692969086
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 5.3362029077812666e-08. Optimal nllh: 843.2976086202331
+Optimal point found for initial point 2
+Initial point 3. Random seed: 220
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.7105993151847583. Initial nu: 0.9878939980190842. Initial nllh: 4270.663017893344
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 843.2975713687158
+Optimal point found for initial point 3
+Initial point 4. Random seed: 8407
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.12551617686356065. Initial nu: 0.8571223894032189. Initial nllh: 1745.3330459737695
+EM finished after 9 iterations.
+Optimal phi: 0. Optimal nu: 5.4269407996521426e-08. Optimal nllh: 843.2976108670301
+Optimal point found for initial point 4
+Initial point 5. Random seed: 7801
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.6509294446496958. Initial nu: 0.6529143623774905. Initial nllh: 3621.245668858675
+EM finished after 9 iterations.
+Optimal phi: 0. Optimal nu: 4.657399990955222e-08. Optimal nllh: 843.2976052120935
+Optimal point found for initial point 5
+Initial point 6. Random seed: 5100
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.09344528210465072. Initial nu: 0.43848580351959765. Initial nllh: 1369.908804682445
+EM finished after 9 iterations.
+Optimal phi: 0. Optimal nu: 4.700103432425203e-08. Optimal nllh: 843.2976049346709
+Optimal point found for initial point 6
+Initial point 7. Random seed: 1593
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.7777894601502608. Initial nu: 0.2653907527057932. Initial nllh: 4340.702880874423
+EM finished after 8 iterations.
+Optimal phi: 0. Optimal nu: 5.3483195073156716e-08. Optimal nllh: 843.2976105634069
+Optimal point found for initial point 7
+Initial point 8. Random seed: 2397
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.18455949018478726. Initial nu: 0.43889235843407765. Initial nllh: 1603.2262718143422
+EM finished after 9 iterations.
+Optimal phi: 0. Optimal nu: 5.149397280312348e-08. Optimal nllh: 843.297607948843
+Optimal point found for initial point 8
+Initial point 9. Random seed: 3616
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.26389697145954616. Initial nu: 0.9457929623396014. Initial nllh: 2187.046413334955
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 4.66789875296057e-08. Optimal nllh: 843.2976042647127
+Optimal point found for initial point 9
+Initial point 10. Random seed: 1860
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.503111850121842. Initial nu: 0.07827811564613435. Initial nllh: 2437.8942850128324
+EM finished after 8 iterations.
+Optimal phi: 0. Optimal nu: 0.0. Optimal nllh: 843.2975711438487
+Optimal point found for initial point 10
+Numerical optimization finished successfully
+Runtime (s): 11.232582708

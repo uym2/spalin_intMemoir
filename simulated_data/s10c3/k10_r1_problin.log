@@ -1,85 +1,24 @@
-Launching Problin version 0.5p
+Launching Problin version 0.5b
 Problin was called as follow: /Users/uym2/my_gits/problin/run_problin.py -c s10c3/k10_r1_character_matrix.csv -t s10c3/true_tree.nwk --delimiter comma -p s10c3/k10_priors.csv -o s10c3/k10_r1_problin.txt --nInitials 10
-Optimization by EM algorithm
 Optimizing branch lengths, phi, and nu without topology search
-Initial point 1. Random seed: 1917
-Solving ML without ultrametric constraint
-Initial phi: 0.7309815627045425. Initial nu: 0.9155187032883486. Initial nllh: 21229.93882190137
-EM finished after 35 iterations.
-Optimal point found for initial point 1
-Negative llh: 105.34318386467586
-Dropout rate: 0
-Silencing rate: 8.153396780345584e-07
-Initial point 2. Random seed: 3533
-Solving ML without ultrametric constraint
-Initial phi: 0.27789886543712233. Initial nu: 0.720633691601423. Initial nllh: 240.1089289133377
-EM finished after 25 iterations.
-Optimal point found for initial point 2
-Negative llh: 105.34319463597987
-Dropout rate: 0
-Silencing rate: 7.863233890395344e-07
-Initial point 3. Random seed: 501
-Solving ML without ultrametric constraint
-Initial phi: 0.9619829502283019. Initial nu: 0.618081067328311. Initial nllh: 819.0188942383946
-EM finished after 25 iterations.
-Optimal point found for initial point 3
-Negative llh: 105.34319278119987
-Dropout rate: 0
-Silencing rate: 7.854444772284603e-07
-Initial point 4. Random seed: 5286
-Solving ML without ultrametric constraint
-Initial phi: 0.6528042779966916. Initial nu: 0.9694145219902612. Initial nllh: 410.6018940943129
-EM finished after 29 iterations.
-Optimal point found for initial point 4
-Negative llh: 105.3431875285064
-Dropout rate: 0
-Silencing rate: 8.069106293273715e-07
-Initial point 5. Random seed: 729
-Solving ML without ultrametric constraint
-Initial phi: 0.01147112612347835. Initial nu: 0.5918849096022342. Initial nllh: 164.8533064226554
-EM finished after 32 iterations.
-Optimal point found for initial point 5
-Negative llh: 105.34318110469313
-Dropout rate: 0
-Silencing rate: 8.060715936078043e-07
-Initial point 6. Random seed: 691
-Solving ML without ultrametric constraint
-Initial phi: 0.8988325108375556. Initial nu: 0.9127548514302738. Initial nllh: 651.7560916890254
-EM finished after 29 iterations.
-Optimal point found for initial point 6
-Negative llh: 105.34318687575043
-Dropout rate: 0
-Silencing rate: 8.063309413301098e-07
-Initial point 7. Random seed: 2334
-Solving ML without ultrametric constraint
-Initial phi: 0.3113338583015812. Initial nu: 0.49354547292977624. Initial nllh: 227.64170670755786
-EM finished after 26 iterations.
-Optimal point found for initial point 7
-Negative llh: 105.34318865610965
-Dropout rate: 0
-Silencing rate: 8.067473618418708e-07
-Initial point 8. Random seed: 1564
-Solving ML without ultrametric constraint
-Initial phi: 0.9649278097160386. Initial nu: 0.0056371755759361385. Initial nllh: 775.9572642340725
-EM finished after 4 iterations.
-Optimal point found for initial point 8
-Negative llh: 105.34318639515047
-Dropout rate: 0
-Silencing rate: 8.067235841707302e-07
-Initial point 9. Random seed: 3199
-Solving ML without ultrametric constraint
-Initial phi: 0.7821539418728394. Initial nu: 0.10241911664944585. Initial nllh: 420.0346287596076
-EM finished after 14 iterations.
-Optimal point found for initial point 9
-Negative llh: 105.34319934133944
-Dropout rate: 0
-Silencing rate: 8.082299011985427e-07
-Initial point 10. Random seed: 8624
-Solving ML without ultrametric constraint
-Initial phi: 0.2363487634091625. Initial nu: 0.6816421025108125. Initial nllh: 225.14543074380558
-EM finished after 25 iterations.
-Optimal point found for initial point 10
-Negative llh: 105.34319635709757
-Dropout rate: 0
-Silencing rate: 8.070744236655188e-07
-Runtime (s): 11.035581500000001
+Optimization by EM algorithm
+Initial point 1. Random seed: 1375
+Numerical optimization started without ultrametric constraint
+Initial phi: 0.15169911448621207. Initial nu: 0.4248156581654753. Initial nllh: 13417.979600646193
+Warning: EM failed to optimize parameters in one Mstep.
+Traceback (most recent call last):
+  File "/Users/uym2/my_gits/problin/run_problin.py", line 255, in <module>
+    main()
+  File "/Users/uym2/my_gits/problin/run_problin.py", line 142, in main
+    nllh = mySolver.optimize(initials=args["nInitials"],fixed_phi=fixed_phi,fixed_nu=fixed_nu,verbose=args["verbose"],random_seeds=random_seeds,ultra_constr=args["ultrametric"])      
+  File "/Users/uym2/my_gits/problin/problin_libs/ML_solver.py", line 263, in optimize
+    nllh,status = self.optimize_one(randseed,fixed_phi=fixed_phi,fixed_nu=fixed_nu,verbose=verbose,ultra_constr=ultra_constr)
+  File "/Users/uym2/my_gits/problin/problin_libs/EM_solver.py", line 501, in optimize_one
+    nllh,em_iter,status = self.EM_optimization(verbose=verbose,optimize_phi=(fixed_phi is None),optimize_nu=(fixed_nu is None),ultra_constr=ultra_constr)
+  File "/Users/uym2/my_gits/problin/problin_libs/EM_solver.py", line 478, in EM_optimization
+    curr_llh = self.lineage_llh()
+  File "/Users/uym2/my_gits/problin/problin_libs/EM_solver.py", line 134, in lineage_llh
+    self.Estep_in_llh()
+  File "/Users/uym2/my_gits/problin/problin_libs/EM_solver.py", line 99, in Estep_in_llh
+    q = self.Q[site][node.alpha[site]] if node.alpha[site] not in ['?','z'] else 1.0
+KeyboardInterrupt

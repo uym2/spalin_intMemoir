@@ -25,7 +25,7 @@ surf(X,Y,Z,'FaceColor','c')
 x1_lim = [min(x_all)+3*x_range/16, max(x_all)-3*x_range/16];
 y1_lim = [min(y_all)+3*y_range/16, max(y_all)-3*y_range/16];
 [X1,Y1] = meshgrid(x1_lim,y1_lim);
-Z1 = -108*ones(size(X));
+Z1 = -160*ones(size(X));
 surf(X1,Y1,Z1,'FaceColor','c')
 
 for ii = 1:L

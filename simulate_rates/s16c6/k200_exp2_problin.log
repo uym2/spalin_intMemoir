@@ -1,0 +1,66 @@
+Launching Problin version 0.5b
+Problin was called as follow: /Users/uym2/my_gits/problin/run_problin.py -c s16c6/k200_exp2_character_matrix.csv -t s16c6/true_tree.nwk --delimiter comma -p s16c6/k200_exp2_priors.csv -o s16c6/k200_exp2_problin --nInitials 10 --ultrametric
+Optimizing branch lengths, phi, and nu without topology search
+Optimization by EM algorithm
+Initial point 1. Random seed: 4093
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.49252133508503776. Initial nu: 0.36492947965334016. Initial nllh: 207673.00255345672
+EM finished after 14 iterations.
+Optimal phi: 0. Optimal nu: 7.15349410675447e-08. Optimal nllh: 1391.0025384574133
+Optimal point found for initial point 1
+Initial point 2. Random seed: 1796
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.34645245063684577. Initial nu: 0.9278542766254999. Initial nllh: 3923.669424287446
+EM finished after 9 iterations.
+Optimal phi: 0. Optimal nu: 6.31141645908071e-08. Optimal nllh: 1391.0025364059723
+Optimal point found for initial point 2
+Initial point 3. Random seed: 9063
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.9308872901786849. Initial nu: 0.5240725205264667. Initial nllh: 12549.27793970317
+EM finished after 12 iterations.
+Optimal phi: 0. Optimal nu: 6.318844348388306e-08. Optimal nllh: 1391.00253104101
+Optimal point found for initial point 3
+Initial point 4. Random seed: 9682
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.8121917141499981. Initial nu: 0.6350043530396328. Initial nllh: 8649.75729536934
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 5.623189425833431e-08. Optimal nllh: 1391.0025259658928
+Optimal point found for initial point 4
+Initial point 5. Random seed: 6326
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.07936686576584523. Initial nu: 0.2400840583331368. Initial nllh: 1938.032409709012
+EM finished after 11 iterations.
+Optimal phi: 0. Optimal nu: 5.4064345431301124e-08. Optimal nllh: 1391.0025211765603
+Optimal point found for initial point 5
+Initial point 6. Random seed: 2480
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.663550428627461. Initial nu: 0.8679269883617974. Initial nllh: 6525.945635119284
+EM finished after 11 iterations.
+Optimal phi: 0. Optimal nu: 7.221510581925166e-08. Optimal nllh: 1391.0025393534202
+Optimal point found for initial point 6
+Initial point 7. Random seed: 8901
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.615831562047462. Initial nu: 0.5782155354531007. Initial nllh: 5736.333875008019
+EM finished after 9 iterations.
+Optimal phi: 0. Optimal nu: 6.65700416651065e-08. Optimal nllh: 1391.0025382897347
+Optimal point found for initial point 7
+Initial point 8. Random seed: 7214
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.2619920627731871. Initial nu: 0.061620627078939595. Initial nllh: 2662.867409387673
+EM finished after 7 iterations.
+Optimal phi: 0. Optimal nu: 5.774770500003357e-08. Optimal nllh: 1391.0025280609768
+Optimal point found for initial point 8
+Initial point 9. Random seed: 9659
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.3149314001729572. Initial nu: 0.18895253830146397. Initial nllh: 3074.477614505541
+EM finished after 8 iterations.
+Optimal phi: 0. Optimal nu: 6.699336072941618e-08. Optimal nllh: 1391.0025378788494
+Optimal point found for initial point 9
+Initial point 10. Random seed: 5739
+Numerical optimization started with ultrametric constraint
+Initial phi: 0.14492629183716083. Initial nu: 0.7282863622944523. Initial nllh: 2670.1038824072866
+EM finished after 10 iterations.
+Optimal phi: 0. Optimal nu: 5.992120518559699e-08. Optimal nllh: 1391.0025294806112
+Optimal point found for initial point 10
+Numerical optimization finished successfully
+Runtime (s): 17.922033125000002

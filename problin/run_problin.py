@@ -121,14 +121,6 @@ def main():
     myTopoSearch = Topology_search(input_trees, selected_solver, data=data, prior=prior, params=params)
 
     if args["compute_llh"]:
-        if args["spatial"] is not None:
-            # do the version of this problem with the spatial info and output the likelihoods of sequence/spatial separately
-            mySolver = myTopoSearch.get_solver()
-            sequence_llh = mySolver.negative_llh()
-            spatial_llh = mySolver.spatial_llh_marginalized(data['locations'])
-            print("tree sequence llh: " + str(sequence_llh))
-            print("tree spatial llh: " + str(spatial_llh))
-
         print("Compute likelihood of the input tree and specified parameters without any optimization")
         mySolver = myTopoSearch.get_solver()
         nllh = mySolver.negative_llh()
@@ -177,7 +169,6 @@ def main():
         for tree in opt_trees:
             fout.write(tree + "\n")
         fout.write("Negative-llh: " +  str(nllh) + "\n")
-
         fout.write("Dropout rate: " + str(opt_params['phi']) + "\n")
         fout.write("Silencing rate: " + str(opt_params['nu']) + "\n")
         if args["spatial"] is not None:
@@ -186,11 +177,6 @@ def main():
             has_newly_inferred = False
             inferred_locations = {}
             mySolver = myTopoSearch.get_solver()
-
-            # writing out the likelihoods separately
-            fout.write("Sequence llh: " + str(mySolver.sequence_llh) + "\n")
-            fout.write("Spatial llh: " + str(mySolver.spatial_llh) + "\n")
-
             for cell in mySolver.inferred_locations:
                 if not cell in known_locations:
                     has_newly_inferred = True
@@ -202,7 +188,6 @@ def main():
                     fout.write(cell + " " + str(x) + " " + str(y) + "\n")
             else:
                 fout.write("All cell locations were given as input.")       
-
 
     stop_time = timeit.default_timer()
     print("Runtime (s):", stop_time - start_time)

@@ -38,14 +38,13 @@ class SpaLin_solver(ML_solver):
                     distances[(node1.label,node2.label)] = (x1 - x2)**2 + (y1 - y2)**2
         return distances
 
-    def spatial_llh_marginalized(self):
+    def spatial_llh_marginalized(self,locations):
         # given:
         # matrix D_ij as squared generalized distances
         # number of characters p
         # times of the tip populations (calculated from branch lengths) t_i
         # ancestors for each node
-        mutation_rate = 0.006 # hardcoding this for now, will change later
-        locations = self.inferred_locations
+        mutation_rate = 0.006 # hardcoding this because i'm lazy
 
         llh = 0
         for one_tree in self.trees:
@@ -96,9 +95,8 @@ class SpaLin_solver(ML_solver):
                                 parent.remove_child(node)
                                 children[0].set_parent(parent)
                                 parent.add_child(children[0])
-
             if T == 0:
-                llh += -S/2
+                llh += - S/2
             else:
                 llh += -log(T) - S/2
         return llh
@@ -118,7 +116,7 @@ class SpaLin_solver(ML_solver):
         return llh 
 
     def __llh__(self):
-        return self.lineage_llh() + self.spatial_llh_marginalized()
+        return self.lineage_llh() + self.spatial_llh_marginalized(self.inferred_locations)
     
     '''
     def optimize_one(self,randseed,fixed_phi=None,fixed_nu=None,verbose=1,ultra_constr=False,optimize_brlens=True):

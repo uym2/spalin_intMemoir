@@ -1,5 +1,6 @@
 from treeswift import *
-from math import log,exp,sqrt
+import math
+from math import log,exp,sqrt,pi
 from random import random, seed
 from scipy import optimize
 from scipy.sparse import csr_matrix
@@ -8,6 +9,8 @@ import numpy as np
 from problin_libs import min_llh, eps
 from problin_libs.ML_solver import ML_solver
 from copy import deepcopy
+from scipy.stats import vonmises, norm, gamma, rayleigh
+
 
 class SpaLin_solver(ML_solver):
     def __init__(self,treeTopo,data,prior,params={'nu':0,'phi':0,'sigma':0}):
@@ -68,6 +71,7 @@ class SpaLin_solver(ML_solver):
                     if node.num_children() == 2 and children[0].is_leaf() and children[1].is_leaf():
                         v1 = children[0].get_edge_length()
                         v2 = children[1].get_edge_length()
+                        
                         f = v1 / (v1+v2)
 
                         S += distance_matrix[(children[0].label,children[1].label)] / (v1 + v2)
@@ -76,10 +80,14 @@ class SpaLin_solver(ML_solver):
                         # update the distance matrix
                         for other_leaf in tree.traverse_postorder():
                             if other_leaf.is_leaf():
-                                new_value = 0
-                                new_value += (1-f) * distance_matrix[(children[0].label, other_leaf.label)]
-                                new_value += f * distance_matrix[(children[1].label, other_leaf.label)]
-                                new_value -= f * (1-f) * distance_matrix[(children[0].label,children[1].label)]
+                                if (other_leaf.label != children[0].label) and (other_leaf.label != children[1].label):
+                                    new_value = 0
+                                    new_value += (1-f) * distance_matrix[(children[0].label, other_leaf.label)]
+                                    new_value += f * distance_matrix[(children[1].label, other_leaf.label)]
+                                    new_value -= f * (1-f) * distance_matrix[(children[0].label,children[1].label)]
+
+                                    distance_matrix[(children[0].label, other_leaf.label)] = new_value
+                                    distance_matrix[(other_leaf.label, children[0].label)] = new_value
 
                         # remove one of the children
                         node.remove_child(children[1])
@@ -100,6 +108,7 @@ class SpaLin_solver(ML_solver):
             else:
                 llh += -log(T) - S/2
         return llh
+
     
     def spatial_llh(self,locations):
         llh = 0
@@ -117,6 +126,7 @@ class SpaLin_solver(ML_solver):
 
     def __llh__(self):
         return self.lineage_llh() + self.spatial_llh_marginalized(self.inferred_locations)
+        return final_llh
     
     '''
     def optimize_one(self,randseed,fixed_phi=None,fixed_nu=None,verbose=1,ultra_constr=False,optimize_brlens=True):

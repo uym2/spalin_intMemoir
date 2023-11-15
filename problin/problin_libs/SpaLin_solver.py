@@ -54,7 +54,7 @@ class SpaLin_solver(ML_solver):
             tree = deepcopy(one_tree)
             # need to correct the brlens with the mutation rate param as well as multiply by variance
             tree.scale_edges(1/mutation_rate)
-            tree.scale_edges(self.params.sigma)
+            tree.scale_edges(self.params.sigma**2)
 
 
             # construct distance matrix as dictionary of leaf names
@@ -104,7 +104,7 @@ class SpaLin_solver(ML_solver):
                                 children[0].set_parent(parent)
                                 parent.add_child(children[0])
             if T == 0:
-                llh += - S/2
+                llh += -np.inf
             else:
                 llh += -log(T) - S/2
         return llh
